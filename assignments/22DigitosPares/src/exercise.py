@@ -6,7 +6,7 @@ def main():
 
     while(numero>0):
         if numero%2== 0:
-            even_num= +1
+            even_num+1
         numero= numero//10
 
     print("El número de digitos pares es:", even_num)
