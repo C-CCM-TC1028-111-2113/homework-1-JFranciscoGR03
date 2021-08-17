@@ -9,7 +9,7 @@ def main():
             even_num+= 1
         numero= numero//10
 
-    print("El número de digitos pares es: ", even_num)
+    print("El número de digitos pares es:", even_num)
 
 
 if __name__ == '__main__':
