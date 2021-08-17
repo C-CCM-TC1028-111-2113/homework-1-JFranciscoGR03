@@ -9,7 +9,7 @@ def main():
     m= (y2-y1) / (x2-x1)
     
     #Imprime el resultado
-    print("pendiente:", m)
+    print("Pendiente:", m)
 
 
 if __name__ == '__main__':
