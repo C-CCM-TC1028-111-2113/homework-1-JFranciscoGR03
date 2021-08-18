@@ -1,6 +1,6 @@
 def main():
     #escribe tu código abajo de esta línea
-    minutos= float(input("Dame los minutos: "))
+    minutos= int(input("Dame los minutos: "))
     centimetros= ((60*5.7) / 10) * minutos
     
     print("Centímetros recorridos:", centimetros)
