@@ -5,9 +5,9 @@ def main():
     
     paginas= math.ceil((palabras/475))
     costo= paginas*60
-    costo_descuento= costo-(costo*0.1)
+    costoDescuento= costo - (costo*0.1)
     
-    print("El costo de la publicación es: ", costo_descuento)
+    print("El costo de la publicación es: ", costoDescuento)
 
 
 if __name__ == '__main__':
