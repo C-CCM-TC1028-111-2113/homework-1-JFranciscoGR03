@@ -3,7 +3,7 @@ def main():
     import math
     palabras= int(input("Dame el número de palabras: "))
     
-    paginas= math.ceil(palabras/475)
+    paginas= math.ceil((palabras/475))
     costo= paginas*60
     costo_descuento= costo-(costo*0.1)
     
